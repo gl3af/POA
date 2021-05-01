@@ -174,8 +174,6 @@ int main()
                     if(out == "d") file_writer(d_out, input);
                     else file_writer(out, input);
                 }
-                if(out == "d") file_writer(d_out, input);
-                else file_writer(out, input);
                 if(input_way == "file")
                     is_working = false;
                 else
